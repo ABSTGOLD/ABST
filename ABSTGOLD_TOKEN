@@ -4,7 +4,7 @@ pragma solidity ^0.4.24;
 // 'ABSTGOLD' token contract
 //
 // Deployed to : 0x2e833Bf280b0ed9e0a54c6cC108107cBAb70f89B
-// Symbol      : ABSTGOLD
+// Symbol      : ABSTG
 // Name        : ABSTGOLD Token
 // Total supply: 35000000
 // Decimals    : 8
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract ABSTGOLD TOKEN is ERC20Interface, Owned, SafeMath {
+contract ABSTGOLDTOKEN is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -113,7 +113,7 @@ contract ABSTGOLD TOKEN is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "ABSTGOLD";
+        symbol = "ABSTG";
         name = "ABSTGOLD Token";
         decimals = 8;
         _totalSupply = 3500000000000000;
