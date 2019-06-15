@@ -6,7 +6,7 @@ pragma solidity ^0.4.24;
 // Deployed to : 0x2e833Bf280b0ed9e0a54c6cC108107cBAb70f89B
 // Symbol      : ABSTGOLD
 // Name        : ABSTGOLD Token
-// Total supply: 70000000
+// Total supply: 35000000
 // Decimals    : 8
 //
 // Enjoy.
@@ -116,7 +116,7 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
         symbol = "ABSTGOLD";
         name = "ABSTGOLD Token";
         decimals = 8;
-        _totalSupply = 7000000000000000;
+        _totalSupply = 3500000000000000;
         balances[0x2e833Bf280b0ed9e0a54c6cC108107cBAb70f89B] = _totalSupply;
         emit Transfer(address(0), 0x2e833Bf280b0ed9e0a54c6cC108107cBAb70f89B, _totalSupply);
     }
